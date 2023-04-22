@@ -1,188 +1,182 @@
 .bg-register {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    background-color: #58b3d0;
-  }
-  
-  .title-1 {
-    position: absolute;
-    width: 406px;
-    height: 49px;
-    left: 128px;
-    top: 339px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #ffffff;
-  }
-  
-  .title-2 {
-    position: absolute;
-    width: 550px;
-    height: 108px;
-    left: 128px;
-    top: 388px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 70px;
-  
-    color: #ffffff;
-  }
-  
-  .plus {
-    font-family: "Inter";
-    font-style: bold;
-    color: #fce690eb;
-  }
-  
-  .card {
-    position: absolute;
-    width: 610px;
-    height: 776px;
-    left: calc(50% - 610px / 2 + 305px);
-    top: calc(50% - 776px/2);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 50px;
-    background: #ffffff;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .container {
-    position: relative;
-    padding: 2px 16px;
-    left: calc(-50% - 609px / 2 + 304.5px);
-    top: calc(19% - 683px / 2 + 18.5px);
-  }
-  
-  .titulo-card {
-    position: absolute;
-    width: 174px;
-    height: 46px;
-    left: calc(50% - 174px/2 + 306px);
-    top: 194px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: #58b3d0;
+}
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+.title-1 {
+  position: absolute;
+  width: 406px;
+  height: 49px;
+  left: 128px;
+  top: 339px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+}
 
-    color: #000000;
-  }
+.title-2 {
+  position: absolute;
+  width: 550px;
+  height: 108px;
+  left: 128px;
+  top: 388px;
 
-  .input_email{
-    box-sizing: border-box;
-    position: absolute;
-    width: 463px;
-    height: 64px;
-    left: calc(50% - 463px/2 + 305.5px);
-    top: 253px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;
-  }
-  
-  .input_name{
-    box-sizing: border-box;
-    position: absolute;
-    width: 463px;
-    height: 64px;
-    left: calc(50% - 463px/2 + 304.5px);
-    top: 353px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;    
-  }
-  .input_psw{
-    box-sizing: border-box;
-    position: absolute;
-    width: 463px;
-    height: 64px;
-    left: calc(50% - 463px/2 + 304.5px);
-    top: 453px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;    
-  }
-  .input_psw_2{
-    box-sizing: border-box;
-    position: absolute;
-    width: 463px;
-    height: 64px;
-    left: calc(50% - 463px/2 + 304.5px);
-    top: 553px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;    
-  }
-  .input_phone{
-    box-sizing: border-box;
-    position: absolute;
-    width: 463px;
-    height: 64px;
-    left: calc(50% - 463px/2 + 304.5px);
-    top: 653px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;    
-  }
-  
-  ::placeholder{
-    /* position: absolute; */
-    width: 200px;
-    height: 24px;
-    left: 822px;
-    top: 408px;
-    padding-left: 20px;
-  
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px; 
-    color: #797070;
-    
-  }
-  
-  .terms{
-    position: absolute;
-    width: 268px;
-    height: 40px;
-    left: 480px;
-    top: 850px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    
-    color: #000000;
-  }
-  
-  
-  .btn_login {
-    box-sizing: border-box;
-    position: absolute;
-    width: 185px;
-    height: 55px;
-    left: calc(50% - 185px/2 + 304.5px);
-    top: 764px;
-    background: rgba(252, 230, 144, 0.69);
-    border: 1px solid rgba(252, 230, 144, 0.92);
-    border-radius: 10px;
-  }
-  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+
+  color: #ffffff;
+}
+
+.plus {
+  font-family: "Inter";
+  font-style: bold;
+  color: #fce690eb;
+}
+
+.card-register {
+  position: absolute;
+  width: 610px;
+  height: 776px;
+  left: calc(60% - 609px / 2 + 304.5px);
+  top: calc(43% - 683px / 2 + 18.5px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.card-register:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-register {
+  position: relative;
+  padding: 2px 16px;
+  left: calc(-50% - 609px / 2 + 304.5px);
+  top: calc(19% - 683px / 2 + 18.5px);
+}
+
+.titulo-card-register {
+  position: absolute;
+  width: 174px;
+  height: 46px;
+  left: calc(50% - 174px / 2 + 306px);
+  top: 194px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.input_email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 463px;
+  height: 64px;
+  left: calc(50% - 463px / 2 + 305.5px);
+  top: 253px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.input_name {
+  box-sizing: border-box;
+  position: absolute;
+  width: 463px;
+  height: 64px;
+  left: calc(50% - 463px / 2 + 304.5px);
+  top: 353px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.input_psw-register {
+  box-sizing: border-box;
+  position: absolute;
+  width: 463px;
+  height: 64px;
+  left: calc(50% - 463px / 2 + 304.5px);
+  top: 453px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.input_psw_2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 463px;
+  height: 64px;
+  left: calc(50% - 463px / 2 + 304.5px);
+  top: 553px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.input_phone {
+  box-sizing: border-box;
+  position: absolute;
+  width: 463px;
+  height: 64px;
+  left: calc(50% - 463px / 2 + 304.5px);
+  top: 653px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+::placeholder {
+  /* position: absolute; */
+  width: 200px;
+  height: 24px;
+  left: 822px;
+  top: 408px;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #797070;
+}
+
+.terms {
+  position: absolute;
+  width: 268px;
+  height: 40px;
+  left: 480px;
+  top: 850px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+.btn-register {
+  box-sizing: border-box;
+  position: absolute;
+  width: 185px;
+  height: 55px;
+  left: calc(50% - 185px / 2 + 304.5px);
+  top: 764px;
+  background: rgba(252, 230, 144, 0.69);
+  border: 1px solid rgba(252, 230, 144, 0.92);
+  border-radius: 10px;
+}

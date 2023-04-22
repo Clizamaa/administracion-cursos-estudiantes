@@ -96,45 +96,41 @@
   border-radius: 10px;
 }
 
-.input_psw{
+.input_psw {
   box-sizing: border-box;
-
   position: absolute;
   width: 463px;
   height: 64px;
-  left: calc(50% - 463px/2 + 304.5px);
+  left: calc(50% - 463px / 2 + 304.5px);
   top: 501px;
-
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   border-radius: 10px;
 }
 
-::placeholder{
+::placeholder {
   /* position: absolute; */
   width: 100px;
   height: 24px;
   left: 822px;
   top: 408px;
   padding-left: 20px;
-
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 24px;
   color: #797070;
-  
 }
 
-.forgot_psw{
+.forgot_psw {
   position: absolute;
   width: 160px;
   height: 19px;
   left: 544px;
   top: 792px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -143,16 +139,13 @@
   color: #000000;
 }
 
-
 .btn_login {
   box-sizing: border-box;
-
   position: absolute;
   width: 155px;
   height: 64px;
-  left: calc(50% - 155px/2 + 305.5px);
+  left: calc(50% - 155px / 2 + 305.5px);
   top: 657px;
-
   background: rgba(252, 230, 144, 0.69);
   border: 3px solid rgba(252, 230, 144, 0.69);
   border-radius: 10px;
